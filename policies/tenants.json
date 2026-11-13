@@ -1,0 +1,5 @@
+{
+  "_comment": "tenant id (x-guard-tenant header) -> policy file name. Unknown tenants get 'default'.",
+  "demo-strict": "strict",
+  "demo-observe": "observe"
+}

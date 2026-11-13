@@ -1,0 +1,7 @@
+{
+  "name": "strict",
+  "pii": { "action": "redact", "per_type": { "SECRET": "block", "SSN": "block", "CREDIT_CARD": "block" }, "rehydrate": "none" },
+  "injection": { "action": "block", "threshold": 0.8, "scan_assistant": true },
+  "outbound": { "pii_action": "block" },
+  "inter_agent": { "action": "block", "threshold": 0.8 }
+}

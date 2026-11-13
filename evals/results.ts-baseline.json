@@ -1,0 +1,445 @@
+{
+  "generated_at": "2026-11-10T01:23:33.260Z",
+  "runtime": "node v24.15.0 (darwin/arm64)",
+  "notes": "dev = sets the rules were tuned on (see first_run_before_tuning for the untuned dev numbers). holdout = written after rules were frozen; no rule changes after seeing it. All sets authored by the same person as the rules.",
+  "pii": {
+    "samples": 111,
+    "gold_entities": 88,
+    "negative_samples": 34,
+    "negative_samples_with_false_positive": 0,
+    "micro": {
+      "tp": 86,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1,
+      "recall": 0.977,
+      "f1": 0.989
+    },
+    "per_type": {
+      "SECRET": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      "CREDIT_CARD": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      "IBAN": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      "SSN": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      "EMAIL": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1,
+        "recall": 0.938,
+        "f1": 0.968
+      },
+      "PHONE": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1,
+        "recall": 0.941,
+        "f1": 0.97
+      },
+      "ADDRESS": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      }
+    },
+    "errors": [
+      {
+        "id": "p075",
+        "missed": [
+          "EMAIL:jane dot doe at example dot com"
+        ],
+        "spurious": []
+      },
+      {
+        "id": "p076",
+        "missed": [
+          "PHONE:three one two, five five five, zero one four two"
+        ],
+        "spurious": []
+      }
+    ]
+  },
+  "injection": {
+    "attacks": {
+      "n": 68,
+      "blocked": 68,
+      "block_rate": 1,
+      "by_category": {
+        "direct_override": {
+          "n": 9,
+          "blocked": 9,
+          "block_rate": 1
+        },
+        "jailbreak": {
+          "n": 9,
+          "blocked": 9,
+          "block_rate": 1
+        },
+        "prompt_extraction": {
+          "n": 6,
+          "blocked": 6,
+          "block_rate": 1
+        },
+        "exfiltration": {
+          "n": 7,
+          "blocked": 7,
+          "block_rate": 1
+        },
+        "delimiter": {
+          "n": 5,
+          "blocked": 5,
+          "block_rate": 1
+        },
+        "indirect": {
+          "n": 14,
+          "blocked": 14,
+          "block_rate": 1
+        },
+        "encoding": {
+          "n": 10,
+          "blocked": 10,
+          "block_rate": 1
+        },
+        "multilingual": {
+          "n": 4,
+          "blocked": 4,
+          "block_rate": 1
+        },
+        "tool_abuse": {
+          "n": 2,
+          "blocked": 2,
+          "block_rate": 1
+        },
+        "social_engineering": {
+          "n": 2,
+          "blocked": 2,
+          "block_rate": 1
+        }
+      },
+      "missed_ids": []
+    },
+    "benign": {
+      "n": 45,
+      "blocked": 1,
+      "false_positive_rate": 0.022,
+      "false_positive_ids": [
+        "b11"
+      ]
+    }
+  },
+  "cross_agent": {
+    "default_neutralize": {
+      "tenant_policy": "default",
+      "attacks": {
+        "n": 24,
+        "stopped": 24,
+        "blocked": 0,
+        "neutralized": 24,
+        "stop_rate": 1,
+        "missed_ids": []
+      },
+      "benign": {
+        "n": 12,
+        "altered_or_blocked": 0,
+        "false_positive_rate": 0,
+        "false_positive_ids": []
+      }
+    },
+    "strict_block": {
+      "tenant_policy": "demo-strict",
+      "attacks": {
+        "n": 24,
+        "stopped": 24,
+        "blocked": 24,
+        "neutralized": 0,
+        "stop_rate": 1,
+        "missed_ids": []
+      },
+      "benign": {
+        "n": 12,
+        "altered_or_blocked": 0,
+        "false_positive_rate": 0,
+        "false_positive_ids": []
+      }
+    }
+  },
+  "holdout": {
+    "pii": {
+      "samples": 30,
+      "gold_entities": 20,
+      "negative_samples": 13,
+      "negative_samples_with_false_positive": 0,
+      "micro": {
+        "tp": 19,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1,
+        "recall": 0.95,
+        "f1": 0.974
+      },
+      "per_type": {
+        "SECRET": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "CREDIT_CARD": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "IBAN": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "SSN": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "EMAIL": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "PHONE": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "ADDRESS": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        }
+      },
+      "errors": [
+        {
+          "id": "hp10",
+          "missed": [
+            "SECRET:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+          ],
+          "spurious": []
+        }
+      ]
+    },
+    "injection": {
+      "attacks": {
+        "n": 25,
+        "blocked": 10,
+        "block_rate": 0.4,
+        "by_category": {
+          "direct_override": {
+            "n": 3,
+            "blocked": 0,
+            "block_rate": 0
+          },
+          "jailbreak": {
+            "n": 3,
+            "blocked": 1,
+            "block_rate": 0.333
+          },
+          "prompt_extraction": {
+            "n": 3,
+            "blocked": 1,
+            "block_rate": 0.333
+          },
+          "exfiltration": {
+            "n": 2,
+            "blocked": 1,
+            "block_rate": 0.5
+          },
+          "delimiter": {
+            "n": 2,
+            "blocked": 1,
+            "block_rate": 0.5
+          },
+          "indirect": {
+            "n": 6,
+            "blocked": 1,
+            "block_rate": 0.167
+          },
+          "encoding": {
+            "n": 3,
+            "blocked": 2,
+            "block_rate": 0.667
+          },
+          "multilingual": {
+            "n": 1,
+            "blocked": 1,
+            "block_rate": 1
+          },
+          "tool_abuse": {
+            "n": 1,
+            "blocked": 1,
+            "block_rate": 1
+          },
+          "social_engineering": {
+            "n": 1,
+            "blocked": 1,
+            "block_rate": 1
+          }
+        },
+        "missed_ids": [
+          "ha01",
+          "ha02",
+          "ha03",
+          "ha04",
+          "ha05",
+          "ha07",
+          "ha09",
+          "ha11",
+          "ha13",
+          "ha14",
+          "ha15",
+          "ha16",
+          "ha17",
+          "ha21",
+          "ha25"
+        ]
+      },
+      "benign": {
+        "n": 20,
+        "blocked": 1,
+        "false_positive_rate": 0.05,
+        "false_positive_ids": [
+          "hb06"
+        ]
+      }
+    },
+    "cross_agent": {
+      "default_neutralize": {
+        "tenant_policy": "default",
+        "attacks": {
+          "n": 8,
+          "stopped": 5,
+          "blocked": 0,
+          "neutralized": 5,
+          "stop_rate": 0.625,
+          "missed_ids": [
+            "hx01",
+            "hx02",
+            "hx08"
+          ]
+        },
+        "benign": {
+          "n": 4,
+          "altered_or_blocked": 0,
+          "false_positive_rate": 0,
+          "false_positive_ids": []
+        }
+      },
+      "strict_block": {
+        "tenant_policy": "demo-strict",
+        "attacks": {
+          "n": 8,
+          "stopped": 6,
+          "blocked": 6,
+          "neutralized": 0,
+          "stop_rate": 0.75,
+          "missed_ids": [
+            "hx01",
+            "hx08"
+          ]
+        },
+        "benign": {
+          "n": 4,
+          "altered_or_blocked": 0,
+          "false_positive_rate": 0,
+          "false_positive_ids": []
+        }
+      }
+    }
+  },
+  "latency": {
+    "iterations": 1000,
+    "method": "in-process, paired per iteration: (proxy + mock upstream) minus (mock upstream alone); no network",
+    "added_ms": {
+      "p50": 0.318,
+      "p95": 0.593,
+      "p99": 0.635
+    },
+    "mock_upstream_only_ms": {
+      "p50": 0.014,
+      "p95": 0.027
+    },
+    "through_proxy_ms": {
+      "p50": 0.331,
+      "p95": 0.616
+    }
+  },
+  "first_run_before_tuning": {
+    "pii_micro": {
+      "tp": 82,
+      "fp": 3,
+      "fn": 6,
+      "precision": 0.965,
+      "recall": 0.932,
+      "f1": 0.948
+    },
+    "attack_block_rate": 0.912,
+    "benign_fpr": 0.044,
+    "cross_agent_stop_rate_default": 0.875,
+    "cross_agent_fpr_default": 0,
+    "cross_agent_block_rate_strict": 0.875,
+    "cross_agent_fpr_strict": 0,
+    "added_latency_ms": {
+      "p50": 0.253,
+      "p95": 0.415,
+      "p99": 0.464
+    }
+  }
+}

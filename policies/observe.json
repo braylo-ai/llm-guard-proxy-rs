@@ -1,0 +1,8 @@
+{
+  "name": "observe",
+  "pii": { "action": "flag", "rehydrate": "none" },
+  "injection": { "action": "flag" },
+  "outbound": { "pii_action": "flag", "secret_action": "flag", "canary_action": "flag", "exfil_action": "flag" },
+  "canary": { "inject": true },
+  "inter_agent": { "action": "flag" }
+}

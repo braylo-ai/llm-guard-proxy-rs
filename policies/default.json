@@ -1,0 +1,51 @@
+{
+  "name": "default",
+  "pii": {
+    "enabled": [
+      "SECRET",
+      "CREDIT_CARD",
+      "IBAN",
+      "SSN",
+      "EMAIL",
+      "PHONE",
+      "ADDRESS"
+    ],
+    "action": "redact",
+    "per_type": {
+      "SECRET": "redact"
+    },
+    "allowlist": [],
+    "rehydrate": [
+      "EMAIL",
+      "PHONE",
+      "ADDRESS"
+    ],
+    "scan_system": true
+  },
+  "injection": {
+    "action": "block",
+    "threshold": 1.0,
+    "scan_assistant": false,
+    "classifier": null
+  },
+  "outbound": {
+    "pii_action": "redact",
+    "secret_action": "block",
+    "canary_action": "block",
+    "exfil_action": "block",
+    "block_message": "This response was withheld by the security proxy.",
+    "url_allowlist": []
+  },
+  "canary": {
+    "inject": true,
+    "static": []
+  },
+  "inter_agent": {
+    "action": "neutralize",
+    "threshold": 1.0,
+    "wrap": true
+  },
+  "limits": {
+    "max_body_bytes": 1000000
+  }
+}

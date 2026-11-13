@@ -1,0 +1,111 @@
+{"id": "p001", "text": "Contact me at jane.doe@example.com for details.", "entities": [{"type": "EMAIL", "value": "jane.doe@example.com"}]}
+{"id": "p002", "text": "Send the invoice to billing+q3@acme-roofing.example.org please", "entities": [{"type": "EMAIL", "value": "billing+q3@acme-roofing.example.org"}]}
+{"id": "p003", "text": "my email is MARK_77@EXAMPLE.NET", "entities": [{"type": "EMAIL", "value": "MARK_77@EXAMPLE.NET"}]}
+{"id": "p004", "text": "cc: a.b.c@sub.mail.example.co.uk, d@example.io", "entities": [{"type": "EMAIL", "value": "a.b.c@sub.mail.example.co.uk"}, {"type": "EMAIL", "value": "d@example.io"}]}
+{"id": "p005", "text": "Reach out (lena.k@example.com) anytime.", "entities": [{"type": "EMAIL", "value": "lena.k@example.com"}]}
+{"id": "p006", "text": "<tom@example.org> wrote: see attached", "entities": [{"type": "EMAIL", "value": "tom@example.org"}]}
+{"id": "p007", "text": "Email: priya.r.shah1990@example.com", "entities": [{"type": "EMAIL", "value": "priya.r.shah1990@example.com"}]}
+{"id": "p008", "text": "support@example.dev is the shared inbox.", "entities": [{"type": "EMAIL", "value": "support@example.dev"}]}
+{"id": "p009", "text": "Forwarded from carlos_m@example.mx on Tuesday.", "entities": [{"type": "EMAIL", "value": "carlos_m@example.mx"}]}
+{"id": "p010", "text": "Write to o'neil@example.com", "entities": [{"type": "EMAIL", "value": "o'neil@example.com"}]}
+{"id": "p011", "text": "Call me at (312) 555-0142 after 5pm.", "entities": [{"type": "PHONE", "value": "(312) 555-0142"}]}
+{"id": "p012", "text": "My cell is 312-555-0199.", "entities": [{"type": "PHONE", "value": "312-555-0199"}]}
+{"id": "p013", "text": "Phone: +1 415 555 0123", "entities": [{"type": "PHONE", "value": "+1 415 555 0123"}]}
+{"id": "p014", "text": "Office line 773.555.0168, ext 4", "entities": [{"type": "PHONE", "value": "773.555.0168"}]}
+{"id": "p015", "text": "UK office: +44 20 7946 0958", "entities": [{"type": "PHONE", "value": "+44 20 7946 0958"}]}
+{"id": "p016", "text": "text me 6305550111 when you're outside", "entities": [{"type": "PHONE", "value": "6305550111"}]}
+{"id": "p017", "text": "Reach our German team at +49 30 901820", "entities": [{"type": "PHONE", "value": "+49 30 901820"}]}
+{"id": "p018", "text": "Mobile +1-646-555-0177 (WhatsApp ok)", "entities": [{"type": "PHONE", "value": "+1-646-555-0177"}]}
+{"id": "p019", "text": "Fax: (847) 555-0102", "entities": [{"type": "PHONE", "value": "(847) 555-0102"}]}
+{"id": "p020", "text": "Call 1-800-555-0199 for support.", "entities": [{"type": "PHONE", "value": "1-800-555-0199"}]}
+{"id": "p021", "text": "You can call me on +33 1 23 45 67 89.", "entities": [{"type": "PHONE", "value": "+33 1 23 45 67 89"}]}
+{"id": "p022", "text": "my number's 708 555 0134", "entities": [{"type": "PHONE", "value": "708 555 0134"}]}
+{"id": "p023", "text": "SSN: 512-38-4471", "entities": [{"type": "SSN", "value": "512-38-4471"}]}
+{"id": "p024", "text": "Her social security number is 219-67-3302.", "entities": [{"type": "SSN", "value": "219-67-3302"}]}
+{"id": "p025", "text": "ssn 401 22 9183 on the form", "entities": [{"type": "SSN", "value": "401 22 9183"}]}
+{"id": "p026", "text": "Employee SSN 078-44-1290, start date 3/4.", "entities": [{"type": "SSN", "value": "078-44-1290"}]}
+{"id": "p027", "text": "Social Security No. 345671234", "entities": [{"type": "SSN", "value": "345671234"}]}
+{"id": "p028", "text": "Applicant 1: 623-11-0458; Applicant 2: 532-90-7716", "entities": [{"type": "SSN", "value": "623-11-0458"}, {"type": "SSN", "value": "532-90-7716"}]}
+{"id": "p029", "text": "Card: 4111 1111 1111 1111 exp 12/27", "entities": [{"type": "CREDIT_CARD", "value": "4111 1111 1111 1111"}]}
+{"id": "p030", "text": "charge 5555555555554444 for the deposit", "entities": [{"type": "CREDIT_CARD", "value": "5555555555554444"}]}
+{"id": "p031", "text": "Amex 3782 822463 10005", "entities": [{"type": "CREDIT_CARD", "value": "3782 822463 10005"}]}
+{"id": "p032", "text": "Use 4012-8888-8888-1881 on file.", "entities": [{"type": "CREDIT_CARD", "value": "4012-8888-8888-1881"}]}
+{"id": "p033", "text": "Discover 6011111111111117 please", "entities": [{"type": "CREDIT_CARD", "value": "6011111111111117"}]}
+{"id": "p034", "text": "my visa is 4242424242424242 cvv 123", "entities": [{"type": "CREDIT_CARD", "value": "4242424242424242"}]}
+{"id": "p035", "text": "JCB test 3530111333300000", "entities": [{"type": "CREDIT_CARD", "value": "3530111333300000"}]}
+{"id": "p036", "text": "Mastercard 2223 0031 2200 3222", "entities": [{"type": "CREDIT_CARD", "value": "2223 0031 2200 3222"}]}
+{"id": "p037", "text": "Diners 30569309025904", "entities": [{"type": "CREDIT_CARD", "value": "30569309025904"}]}
+{"id": "p038", "text": "amex 371449635398431 is the backup card", "entities": [{"type": "CREDIT_CARD", "value": "371449635398431"}]}
+{"id": "p039", "text": "Card on file 5105 1051 0510 5100.", "entities": [{"type": "CREDIT_CARD", "value": "5105 1051 0510 5100"}]}
+{"id": "p040", "text": "Wire to GB82 WEST 1234 5698 7654 32", "entities": [{"type": "IBAN", "value": "GB82 WEST 1234 5698 7654 32"}]}
+{"id": "p041", "text": "IBAN: DE89370400440532013000", "entities": [{"type": "IBAN", "value": "DE89370400440532013000"}]}
+{"id": "p042", "text": "Account FR1420041010050500013M02606 (France)", "entities": [{"type": "IBAN", "value": "FR1420041010050500013M02606"}]}
+{"id": "p043", "text": "NL91ABNA0417164300 is the Dutch account.", "entities": [{"type": "IBAN", "value": "NL91ABNA0417164300"}]}
+{"id": "p044", "text": "pay ES9121000418450200051332 by Friday", "entities": [{"type": "IBAN", "value": "ES9121000418450200051332"}]}
+{"id": "p045", "text": "Swiss IBAN CH93 0076 2011 6238 5295 7", "entities": [{"type": "IBAN", "value": "CH93 0076 2011 6238 5295 7"}]}
+{"id": "p046", "text": "Belgian account BE68539007547034.", "entities": [{"type": "IBAN", "value": "BE68539007547034"}]}
+{"id": "p047", "text": "IT60X0542811101000000123456 for the Milan supplier", "entities": [{"type": "IBAN", "value": "IT60X0542811101000000123456"}]}
+{"id": "p048", "text": "my aws key is AKIAIOSFODNN7EXAMPLE", "entities": [{"type": "SECRET", "value": "AKIAIOSFODNN7EXAMPLE"}]}
+{"id": "p049", "text": "OPENAI_API_KEY=sk-proj-Ab3dEf6hIj9kLm2nOp5qRs8tUv1wXy4z", "entities": [{"type": "SECRET", "value": "sk-proj-Ab3dEf6hIj9kLm2nOp5qRs8tUv1wXy4z"}]}
+{"id": "p050", "text": "token ghp_aB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV1wX2 leaked in CI", "entities": [{"type": "SECRET", "value": "ghp_aB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV1wX2"}]}
+{"id": "p051", "text": "slack bot: @@FAKE_SLACK@@", "entities": [{"type": "SECRET", "value": "@@FAKE_SLACK@@"}]}
+{"id": "p052", "text": "stripe test key @@FAKE_STRIPE@@", "entities": [{"type": "SECRET", "value": "@@FAKE_STRIPE@@"}]}
+{"id": "p053", "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.dozjgNryP4J3jVmNHl0w5N_XgL0n3I9PlFUP0THsR8U", "entities": [{"type": "SECRET", "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.dozjgNryP4J3jVmNHl0w5N_XgL0n3I9PlFUP0THsR8U"}]}
+{"id": "p054", "text": "db password: Tr0ub4dor&3xKq", "entities": [{"type": "SECRET", "value": "Tr0ub4dor&3xKq"}]}
+{"id": "p055", "text": "anthropic key sk-ant-api03-Zx9Yw8Vu7Ts6Rq5Po4Nm3Lk2Ji1Hg0Fe", "entities": [{"type": "SECRET", "value": "sk-ant-api03-Zx9Yw8Vu7Ts6Rq5Po4Nm3Lk2Ji1Hg0Fe"}]}
+{"id": "p056", "text": "google maps key AIzaSyA1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q", "entities": [{"type": "SECRET", "value": "AIzaSyA1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q"}]}
+{"id": "p057", "text": "client_secret: 9fK2mQ7xL4pR8vN1", "entities": [{"type": "SECRET", "value": "9fK2mQ7xL4pR8vN1"}]}
+{"id": "p058", "text": "gitlab @@FAKE_GITLAB@@", "entities": [{"type": "SECRET", "value": "@@FAKE_GITLAB@@"}]}
+{"id": "p059", "text": "Ship it to 1600 Amphitheatre Parkway, Mountain View, CA 94043", "entities": [{"type": "ADDRESS", "value": "1600 Amphitheatre Parkway, Mountain View, CA 94043"}]}
+{"id": "p060", "text": "I live at 742 Evergreen Terrace.", "entities": [{"type": "ADDRESS", "value": "742 Evergreen Terrace"}]}
+{"id": "p061", "text": "Job site: 221 N Clark St, Chicago, IL 60601", "entities": [{"type": "ADDRESS", "value": "221 N Clark St, Chicago, IL 60601"}]}
+{"id": "p062", "text": "Mail checks to P.O. Box 4417", "entities": [{"type": "ADDRESS", "value": "P.O. Box 4417"}]}
+{"id": "p063", "text": "Meet at 55 West 46th Street, Apt 3B", "entities": [{"type": "ADDRESS", "value": "55 West 46th Street, Apt 3B"}]}
+{"id": "p064", "text": "The house at 18 Maple Ave needs a new roof.", "entities": [{"type": "ADDRESS", "value": "18 Maple Ave"}]}
+{"id": "p065", "text": "Deliver to 9 Elm Court, Hartford, CT", "entities": [{"type": "ADDRESS", "value": "9 Elm Court, Hartford, CT"}]}
+{"id": "p066", "text": "our shop is on 1200 S Michigan Avenue", "entities": [{"type": "ADDRESS", "value": "1200 S Michigan Avenue"}]}
+{"id": "p067", "text": "Return address: 4 Privet Drive, Little Whinging", "entities": [{"type": "ADDRESS", "value": "4 Privet Drive"}]}
+{"id": "p068", "text": "Office: 350 Fifth Avenue, Suite 5100, New York, NY 10118", "entities": [{"type": "ADDRESS", "value": "350 Fifth Avenue, Suite 5100, New York, NY 10118"}]}
+{"id": "p069", "text": "Hi, I'm Dana. dana.w@example.com / 312-555-0101. Card 4111111111111111.", "entities": [{"type": "EMAIL", "value": "dana.w@example.com"}, {"type": "PHONE", "value": "312-555-0101"}, {"type": "CREDIT_CARD", "value": "4111111111111111"}]}
+{"id": "p070", "text": "Customer: SSN 287-65-4321, phone (630) 555-0187, lives at 12 Oak Street.", "entities": [{"type": "SSN", "value": "287-65-4321"}, {"type": "PHONE", "value": "(630) 555-0187"}, {"type": "ADDRESS", "value": "12 Oak Street"}]}
+{"id": "p071", "text": "Refund to DE89 3704 0044 0532 0130 00, confirm by email to r.k@example.de", "entities": [{"type": "IBAN", "value": "DE89 3704 0044 0532 0130 00"}, {"type": "EMAIL", "value": "r.k@example.de"}]}
+{"id": "p072", "text": "config: api_key=Zq8Lw3Nv5Bx1Mc7K and admin email ops@example.com", "entities": [{"type": "SECRET", "value": "Zq8Lw3Nv5Bx1Mc7K"}, {"type": "EMAIL", "value": "ops@example.com"}]}
+{"id": "p073", "text": "New lead: Sam, +1 (872) 555-0144, sam.l@example.com, 88 Lake Shore Drive", "entities": [{"type": "PHONE", "value": "+1 (872) 555-0144"}, {"type": "EMAIL", "value": "sam.l@example.com"}, {"type": "ADDRESS", "value": "88 Lake Shore Drive"}]}
+{"id": "p074", "text": "paste: AKIAI44QH8DHBEXAMPLE / phone 415-555-0150", "entities": [{"type": "SECRET", "value": "AKIAI44QH8DHBEXAMPLE"}, {"type": "PHONE", "value": "415-555-0150"}]}
+{"id": "p075", "text": "email me at jane dot doe at example dot com", "entities": [{"type": "EMAIL", "value": "jane dot doe at example dot com"}]}
+{"id": "p076", "text": "my number is three one two, five five five, zero one four two", "entities": [{"type": "PHONE", "value": "three one two, five five five, zero one four two"}]}
+{"id": "p077", "text": "Card 4111.1111.1111.1111", "entities": [{"type": "CREDIT_CARD", "value": "4111.1111.1111.1111"}]}
+{"id": "p078", "text": "Order number 4111111111111112 shipped today.", "entities": []}
+{"id": "p079", "text": "Invoice 1234 5678 9012 3456 is overdue.", "entities": []}
+{"id": "p080", "text": "The SSN format looks like 000-12-3456 in docs.", "entities": []}
+{"id": "p081", "text": "Example placeholder: 666-45-1234 is not issued.", "entities": []}
+{"id": "p082", "text": "Test value 912-34-5678 is in the ITIN range.", "entities": []}
+{"id": "p083", "text": "Version 10.4.2.1 released on 2024-03-15.", "entities": []}
+{"id": "p084", "text": "Meeting on 2024-11-07 at 14:30, room 312.", "entities": []}
+{"id": "p085", "text": "The UUID is 3f2504e0-4f89-11d3-9a0c-0305e82c3301.", "entities": []}
+{"id": "p086", "text": "Commit a94a8fe5ccb19ba61c4c0873d391e987982fbbd3 fixed the bug.", "entities": []}
+{"id": "p087", "text": "Set retries=5 and timeout=30 in the config.", "entities": []}
+{"id": "p088", "text": "password: hunter2", "entities": []}
+{"id": "p089", "text": "Bad IBAN GB82WEST12345698765433 (checksum fails).", "entities": []}
+{"id": "p090", "text": "ISBN 978-0-306-40615-7 is the textbook.", "entities": []}
+{"id": "p091", "text": "Use the email field on the form; do not type @ signs elsewhere.", "entities": []}
+{"id": "p092", "text": "user@localhost is a local test account.", "entities": []}
+{"id": "p093", "text": "The price went from 1,234,567 to 2,345,678 dollars.", "entities": []}
+{"id": "p094", "text": "Tracking: 1Z999AA10123456784", "entities": []}
+{"id": "p095", "text": "Coordinates 41.8781, -87.6298 mark downtown Chicago.", "entities": []}
+{"id": "p096", "text": "Call the API at /v1/chat/completions with model gpt-4o.", "entities": []}
+{"id": "p097", "text": "Our team has 312 members and 555 open tickets.", "entities": []}
+{"id": "p098", "text": "Room 101, building 7, floor 3.", "entities": []}
+{"id": "p099", "text": "I walked 5 miles yesterday.", "entities": []}
+{"id": "p100", "text": "The house has 3 bedrooms and 2 baths.", "entities": []}
+{"id": "p101", "text": "We use sk-learn and scikit-image for the pipeline.", "entities": []}
+{"id": "p102", "text": "The function returns a JSON web token, usually starting with eyJ.", "entities": []}
+{"id": "p103", "text": "ZIP 60601 is in the Loop.", "entities": []}
+{"id": "p104", "text": "IP 192.168.1.10 is the router.", "entities": []}
+{"id": "p105", "text": "Rate limit is 1000 requests per 60 seconds.", "entities": []}
+{"id": "p106", "text": "Error code 0x80070005 means access denied.", "entities": []}
+{"id": "p107", "text": "He scored 4111 points in the game.", "entities": []}
+{"id": "p108", "text": "Model number SM-G991U1 is the phone.", "entities": []}
+{"id": "p109", "text": "The bill was $1,600 for 2 hours of work.", "entities": []}
+{"id": "p110", "text": "Our roofing crew works Monday through Friday, 7 to 4.", "entities": []}
+{"id": "p111", "text": "Read chapter 12, verses 1-17.", "entities": []}

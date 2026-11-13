@@ -1,0 +1,38 @@
+[package]
+name = "llm-guard-proxy"
+version = "0.2.0"
+edition = "2021"
+description = "Drop-in LLM security proxy in Rust: PII redaction with reversible placeholders, prompt-injection defense, outbound leak + canary scanning."
+license = "MIT"
+
+[lib]
+name = "llm_guard"
+path = "src/lib.rs"
+
+[[bin]]
+name = "llm-guard-proxy"
+path = "src/main.rs"
+
+[[bin]]
+name = "guard-eval"
+path = "src/bin/eval.rs"
+
+[dependencies]
+fancy-regex = "0.13"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+hmac = "0.12"
+base64 = "0.22"
+unicode-normalization = "0.1"
+rand = "0.8"
+url = "2"
+percent-encoding = "2"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "time"] }
+axum = { version = "0.7", default-features = false, features = ["http1", "tokio"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json"] }
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
